@@ -1,0 +1,829 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Blog || FARFETCH</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+		<!-- favicon
+		============================================ -->		
+        <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+		
+		<!-- Google Fonts
+		============================================ -->		
+        <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,900,700,700italic,300' rel='stylesheet' type='text/css'>
+	   
+		<!-- Bootstrap CSS
+		============================================ -->		
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        
+        <!-- nivo slider CSS
+		============================================ -->
+		<link rel="stylesheet" href="lib/nivo-slider/css/nivo-slider.css" type="text/css" />
+		<link rel="stylesheet" href="lib/nivo-slider/css/preview.css" type="text/css" media="screen" />
+        
+		<!-- Fontawsome CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        
+		<!-- owl.carousel CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/owl.carousel.css">
+        
+		<!-- jquery-ui CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/jquery-ui.css">
+        
+		<!-- meanmenu CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/meanmenu.min.css">
+        
+		<!-- animate CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/animate.css">
+        
+		<!-- style CSS
+		============================================ -->
+        <link rel="stylesheet" href="style.css">
+        
+		<!-- responsive CSS
+		============================================ -->
+        <link rel="stylesheet" href="css/responsive.css">
+        
+		<!-- modernizr JS
+		============================================ -->		
+        <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+    </head>
+    <body>
+        
+        <!--Header -->
+        <header>
+            <div class="header-top">
+                <div class="container">
+                    <div class="header-container">
+                        <div class="row">
+                            <div class="col-md-6 col-sm-7">
+                                <div class="header-contact">
+                                    <span class="phone">Precisa de Ajuda? +55 11 32304141</span>
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-5">
+                                <div class="currency-language">
+                                    <div class="currency-menu">
+                                        <ul>
+                                            <li><a href="#">BRL <i class="fa fa-angle-down"></i></a>
+                                                <ul class="currency-dropdown">
+                                                    <li><a href="#">BRL</a></li>
+                                                    <li><a href="#">USD</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="language-menu">
+                                        <ul>
+                                            <li><a href="#">Português <i class="fa fa-angle-down"></i></a>
+                                                <ul class="language-dropdown">
+                                                    <li><a href="#">Francês</a></li>
+                                                    <li><a href="#">Inglês</a></li>
+                                                    <li><a href="#">Alemão</a></li>
+                                                    <li><a href="#">Árabe</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="account-menu">
+                                        <ul>
+                                            <li><a href="#">Login <i class="fa fa-angle-down"></i></a>
+                                                <ul class="account-dropdown">
+                                                    <li><a href="#">Lista de Desejos</a></li>
+                                                    <li><a href="#">Meu Carrinho</a></li>
+                                                    <li><a href="#">Conferir</a></li>
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="#">Log In</a></li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <div class="header-main">
+                <div class="container">
+                    <div class="header-content">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-12">
+                                <div class="logo">
+                                    <a href="index.html"><img src="img//logo/logo.png"></a>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-sm-8">
+                                <div id="search-category">
+                                    <form class="search-box" action="#" method="post">
+                                        <div class="search-categories">
+                                            <div class="search-cat">
+                                                <select class="category-items " name="category">
+                                                    <option>Todas as Categorias</option>
+                                                    <option>Mulheres</option>
+                                                    <option>Homens</option>
+                                                    <option>Jóias</option>
+                                                    <option>Roupas</option>
+                                                    <option>Tenis</option>
+                                                    <option>Camisetas</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <input type="search" placeholder="Pesquisar..." id="text-search" name="search">
+                                        <button id="btn-search-category" type="submit">
+                                            <i class="icon-search"></i>
+                                        </button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-4">
+                                <ul class="header-r-cart">
+                                    <li><a class="cart" href="#">Meu Carrinho: 2 items</a>
+                                        <div class="mini-cart-content">
+                                            <div class="cart-products-list">
+                                                <div class="cart-products">
+                                                    <div class="cart-image">
+                                                        <a href="#"><img src="img/cart/1.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="cart-product-info">
+                                                        <a href="#" class="product-name"> Donec ac tempus </a>
+                                                        <a class="edit-product">Editar item</a>
+                                                        <a class="remove-product">Remover item</a>
+                                                        <div class="price-times">
+                                                            <span class="quantity"><strong> 1 x</strong></span>
+                                                            <span class="p-price">R$100.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-products">
+                                                    <div class="cart-image">
+                                                        <a href="#"><img src="img/cart/2.jpg" alt=""></a>
+                                                    </div>
+                                                    <div class="cart-product-info">
+                                                        <a href="#" class="product-name">Quisque in arcu </a>
+                                                        <a class="edit-product">Editar item</a>
+                                                        <a class="remove-product">Remover item</a>
+                                                        <div class="price-times">
+                                                            <span class="quantity"><strong> 1 x</strong></span>
+                                                            <span class="p-price">R$260.00</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="cart-price-list">
+                                                <p class="price-amount">Subtotal : <span>R$356.15</span> </p>
+                                                <div class="cart-buttons">
+                                                    <a href="#">Checkout</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <!--Mainmenu -->
+            <div class="mainmenu-area hidden-sm hidden-xs">
+                <div id="sticker"> 
+                    <div class="container">
+                        <div class="row">   
+                            <div class="col-lg-12 col-md-12 hidden-sm">
+                                <div class="mainmenu">
+                                    <nav>
+                                        <ul id="nav">
+                                            <li class="current"><a href="index.html">Página Inicial</a>
+                                            
+                                            </li>
+                                            <li><a href="#">Mulher</a>
+                                                <div class="megamenu">
+                                                    <div class="megamenu-list clearfix">
+                                                        <span>											
+                                                            <a href="#" class="mega-title">Roupas</a>
+                                                            <a href="#">Casacos</a>
+                                                            <a href="#">Jaquetas</a>
+                                                            <a href="#">Coleções</a>
+                                                            <a href="#">Camisetas</a>
+                                                        </span>
+                                                        <span>											
+                                                            <a href="#" class="mega-title">Vestidos</a>
+                                                            <a href="#">Vestidos de festa</a>
+                                                            <a href="#">Óculos de Sol</a>
+                                                            <a href="#">Vestidos de noite</a>
+                                                        </span>
+                                                        <span>                                          
+                                                            <a href="#" class="mega-title">Couros</a>
+                                                            <a href="#">Bolsas</a>
+                                                            <a href="#">Carteiras</a>
+                                                            <a href="#">Cintos & Acessórios</a>
+                                                            <a href="#">Jaquetas</a>
+                                                            <a href="#">Sapatos</a>
+                                                        </span>
+                                                        <span class="no-margin">							
+                                                            <a href="#" class="mega-title">Jóias</a>
+                                                            <a href="#">Brincos</a>
+                                                            <a href="#">Nosepins</a>
+                                                            <a href="#">Braceletes</a>
+                                                            <a href="#">Pulseiras</a>
+                                                        </span>
+                                                        <span class="no-margin">										
+                                                            <a href="#" class="mega-banner">
+                                                                <img src="img/mega-banner.jpg" alt="">
+                                                            </a>
+                                                        </span>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li><a href="#">Homem</a>
+                                                    <div class="megamenu">
+                                                        <div class="megamenu-list clearfix">
+                                                            <span>											
+                                                                <a href="#" class="mega-title">Roupas</a>
+                                                                <a href="#">Casacos</a>
+                                                                <a href="#">Jaquetas</a>
+                                                                <a href="#">Coleções</a>
+                                                                <a href="#">Camisetas</a>
+                                                            </span>
+                                                            <span>											
+                                                                <a href="#" class="mega-title">Couros</a>
+                                                                <a href="#">Carteiras</a>
+                                                                <a href="#">Cintos</a>
+                                                                <a href="#">Jaquetas</a>					
+                                                            </span>
+                                                            <span class="no-margin">									
+                                                                <a href="#" class="mega-banner">
+                                                                    <img src="img/mega-banner.jpg" alt="">
+                                                                </a>
+                                                            </span>
+                                                        </div>
+                                                    </div>
+                                             </li>
+                                            <li><a href="#">Calçados</a></li>
+                                            <li><a href="index.html">Páginas</a>
+                                                <ul class="sub-menu">
+                                                    <li><a href="#" class="mega-title">Outras paginas</a></li>
+                                                    <li><a href="#">Sobre Nós</a></li>
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="#">Detalhes Blog</a></li>
+                                                    <li><a href="#">Minha Conta</a></li>
+                                                    <li><a href="#">Carrinho</a></li>
+                                                    <li><a href="#">Checkout</a></li>
+                                                    <li><a href="#">Detalhes Produto</a></li>
+                                                    <li><a href="#">Lista de Desejos</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">Fale Conosco</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>        
+                            </div>
+                        </div>
+                    </div>
+                </div>      
+            </div>
+            <!-- Mainmenu-->
+			
+            <!-- Mobile Menu -->
+            <div class="mobile-menu-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12">
+                            <div class="mobile-menu">
+                                <nav id="dropdown">
+                                    <ul>
+                                        <li><a href="index.html">HOME</a></li>
+                                        <li><a href="#">SHOP</a>
+                                            <ul>
+                                                <li><a href="#">Lista</a></li>
+                                                <li><a href="#">Detalhes do Produto</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="blog.html">Blog</a>
+                                            <ul>
+                                                <li><a href="#">Detalhes Blog</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a href="#">Sobre</a>
+                                        <li><a href="#">Paginas</a>
+                                            <ul class="sub-menu">
+                                                    <li><a href="#" class="mega-title">Outras paginas</a></li>
+                                                    <li><a href="#">Sobre Nós</a></li>
+                                                    <li><a href="blog.html">Blog</a></li>
+                                                    <li><a href="#">Detalhes Blog</a></li>
+                                                    <li><a href="#">Minha Conta</a></li>
+                                                    <li><a href="#">Carrinho</a></li>
+                                                    <li><a href="#">Checkout</a></li>
+                                                    <li><a href="#">Detalhes Produto</a></li>
+                                                    <li><a href="#">Lista de Desejos</a></li>
+                                                </ul>
+                                        </li>
+                                        <li><a href="#">Contato</a></li>
+                                    </ul>
+                                </nav>
+                            </div>					
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Mobile Menu -->
+        </header>
+        <!-- Header -->
+		
+        <!--Breadcrumb -->
+        <div class="breadcrumb-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="breadcrumbs">
+                            <ul>
+                                <li class="home"><a href="index.html">Home</a><span>/ </span></li>
+                                <li><strong>Blog Post</strong></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Breadcrumb-->
+        <!--Blog Post -->
+        <div class="blog-page-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="left-blog-sidebar">
+                            <div class="sidebar-content">
+                                <div class="section-title"><h2>Pesquisar</h2></div>
+                                <form action="#" id="blog-search">
+                                    <input type="text" placeholder="Pesquisar..." />
+                                    <button class="submit"><i class="fa fa-search"></i></button>
+                                </form>
+                            </div>
+                            <div class="sidebar-content">
+                                <div class="section-title"><h2>Categoria</h2></div>
+                                <div class="sidebar-category-list">
+                                    <ul>
+                                        <li><a href="#">Vestidos (4)</a></li>
+                                        <li><a href="#">Sapatos (6)</a></li>
+                                        <li><a href="#">Bolsas (1)</a></li>
+                                        <li><a href="#">Roupas (3)</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="sidebar-content post fix">
+                                <div class="section-title"><h2>Posts Recentes</h2></div>
+                                <ul>
+                                    <li>
+                                        <div class="post-thumb"><a href="#"><img src="img/blog/blog1.jpg" alt="" /></a></div>
+                                        <div class="post-info"><a href="#">Blog imagen post</a><span>Maio 10, 2019</span></div></li>
+                                    <li>
+                                        <div class="post-thumb"><a href="#"><img src="img/blog/blog12.jpg" alt="" /></a></div>
+                                        <div class="post-info"><a href="#">Blog imagen post</a><span>Maio 10, 2019</span></div></li>
+                                    <li>
+                                        <div class="post-thumb"><a href="#"><img src="img/blog/blog13.jpg" alt="" /></a></div>
+                                        <div class="post-info"><a href="#">Blog imagen post</a><span>Maio 10, 2019</span></div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="sidebar-content">
+                                <div class="section-title no-margin"><h2>MARCAS</h2></div>
+                                <div class="popular-tags">
+                                    <ul class="tag-list">                  
+                                        <li><a href="#">Balenciaga</a></li>
+                                        <li><a href="#">Balmain</a></li>
+                                        <li><a href="#">Burberry</a></li>
+                                        <li><a href="#">Chloé</a></li>
+                                        <li><a href="#">Dolce & Cabana</a></li>
+                                        <li><a href="#">Fendi</a></li>
+                                        <li><a href="#">Gucci</a></li>
+                                        <li><a href="#">Michael Michael Kors</a></li>
+                                        <li><a href="#">Miu Miu</a></li>
+                                        <li><a href="#">Prada</a></li>
+                                        <li><a href="#">Saint Laurent</a></li>
+                                        <li><a href="#">Stella McCartney</a></li>
+                                        <li><a href="#">Valentino</a></li>
+                                        <li><a href="#">Versace</a></li>
+                                    </ul>
+                                    <div class="tag-actions">
+                                        <a href="#">Ver Todas as Marcas</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="sidebar-content">
+                                <div class="section-title"><h2>Arquivos do Blog</h2></div>
+                                <div class="sidebar-category-list">
+                                    <ul>
+                                        <li><a href="#">Janeiro 2019</a></li>
+                                        <li><a href="#">Dezembro 2019</a></li>
+                                        <li><a href="#">Novembro 2019</a></li>
+                                        <li><a href="#">Setembro 2019</a></li>
+                                        <li><a href="#">Agosto 2019</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-9">
+                        <div class="single-blog fix">
+                            <div class="post-thumbnail">
+                                <a href="#"><img src="img/blog/blog-1.jpg" alt="" /></a>
+                            </div>
+                            <div class="postinfo-wrapper">
+                                <div class="post-date">
+                                    <span class="day">10</span><span class="month">Mar</span>
+                                </div>
+                                <div class="post-info">
+                                    <h1 class="blog-post-title">
+                                        <a href="#">Colaborações que você só pode encontrar aqui</a>
+                                    </h1>
+                                    <div class="entry-meta">
+                                        Postado por <span class="author vcard"><a class="url fn n" href="#" title="Ver todos os post de admin" rel="author">admin</a></span> / <a href="#" rel="category tag">Fashion</a>, <a href="#" rel="category tag">Gabriela Carreira</a>
+                                    </div>
+                                    <div class="entry-summary">
+                                        <p>Quando duas marcas se unem para criar algo em conjunto o resultado é sempre inacreditável, admirável e claro, imperdível. Reunimos aqui as melhores colaborações que você pode encontrar nas nossas araras virtuais...</p>
+                                    </div>
+                                    <a class="read-button" href="#"><span>Ler mais...</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-blog fix">
+                            <div class="post-thumbnail">
+                                <a href="#"><img src="img/blog/blog-2.jpg" alt="" /></a>
+                            </div>
+                            <div class="postinfo-wrapper">
+                                <div class="post-date">
+                                    <span class="day">10</span><span class="month">Mar</span>
+                                </div>
+                                <div class="post-info">
+                                    <h1 class="blog-post-title">
+                                        <a href="#">Fendi x Fila</a>
+                                    </h1>
+                                    <div class="entry-meta">
+                                        Postado por <span class="author vcard"><a class="url fn n" href="#" title="Ver todos os post de admin" rel="author">admin</a></span> / <a href="#" rel="category tag">Fashion</a>, <a href="#" rel="category tag">Gabriela Carreira</a>
+                                    </div>
+                                    <div class="entry-summary">
+                                        <p>Fendi Mania! A coleção-cápsula da Fendi em colaboração com a marca esportiva Fila explora a tendência de logomania com a criação do artista gráfico escocês Hey Reilly.</p>
+                                    </div>
+                                    <a class="read-button" href="#"><span>Ler mais...</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-blog fix">
+                            <div class="post-thumbnail">
+                                <a href="#"><img src="img/blog/blog-3.jpg" alt="" /></a>
+                            </div>
+                            <div class="postinfo-wrapper">
+                                <div class="post-date">
+                                    <span class="day">10</span><span class="month">Mar</span>
+                                </div>
+                                <div class="post-info">
+                                    <h1 class="blog-post-title">
+                                        <a href="#">Fenty x Puma</a>
+                                    </h1>
+                                    <div class="entry-meta">
+                                        Postado por <span class="author vcard"><a class="url fn n" href="#" title="Ver todos os post de admin" rel="author">admin</a></span> / <a href="#" rel="category tag">Fashion</a>, <a href="#" rel="category tag">Gabriela Carreira</a>
+                                    </div>
+                                    <div class="entry-summary">
+                                        <p>Idealizada pela cantora Rihanna, a colaboração Fenty x Puma é, reconhecidamente, mais do que bem-sucedida, rendendo desfiles cheios de poder e inovação para a moda esportiva-</p>
+                                    </div>
+                                    <a class="read-button" href="#"><span>Ler mais...</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-blog fix">
+                            <div class="post-thumbnail">
+                                <a href="#"><img src="img/blog/blog-4.jpg" alt="" /></a>
+                            </div>
+                            <div class="postinfo-wrapper">
+                                <div class="post-date">
+                                    <span class="day">10</span><span class="month">Mar</span>
+                                </div>
+                                <div class="post-info">
+                                    <h1 class="blog-post-title">
+                                        <a href="#">Adidas X Stella McCartney</a>
+                                    </h1>
+                                    <div class="entry-meta">
+                                        Postado por <span class="author vcard"><a class="url fn n" href="#" title="Ver todos os post de admin" rel="author">admin</a></span> / <a href="#" rel="category tag">Fashion</a>, <a href="#" rel="category tag">Gabriela Carreira</a>
+                                    </div>
+                                    <div class="entry-summary">
+                                        <p>Perfeita para despertar o potencial esportivo, a colaboração da estilista Stella McCartney com a Adidas traz peças com materiais inovadores que são combinados a um estilo deslumbrante. Pronta para correr?</p>
+                                    </div>
+                                    <a class="read-button" href="#"><span>Ler mais...</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-blog fix no-margin">
+                            <div class="post-thumbnail">
+                                <a href="#"><img src="img/blog/blog-5.jpg" alt="" /></a>
+                            </div>
+                            <div class="postinfo-wrapper">
+                                <div class="post-date">
+                                    <span class="day">10</span><span class="month">Mar</span>
+                                </div>
+                                <div class="post-info">
+                                    <h1 class="blog-post-title">
+                                        <a href="#">À La Garçonne x Melissa</a>
+                                    </h1>
+                                    <div class="entry-meta">
+                                        Postado por <span class="author vcard"><a class="url fn n" href="#" title="Ver todos os post de admin" rel="author">admin</a></span> / <a href="#" rel="category tag">Fashion</a>, <a href="#" rel="category tag">WordPress</a>
+                                    </div>
+                                    <div class="entry-summary">
+                                        <p>Em solo nacional também temos nossa cota com a À La Garçonne em colaboração com a marca de sapatos Melissa. A soma do estilo sombrio ao moderno traz um resultado perfeito.</p>
+                                    </div>
+                                    <a class="read-button" href="#"><span>Ler mais...</span></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="pagination-content">
+                                    <div class="pagination-button">
+                                        <ul class="pagination">
+                                            <li class="current"><a href="#">1</a></li>
+                                            <li><a href="#">2</a></li>
+                                            <li><a href="#"><i class="fa fa-caret-right"></i></a></li>
+                                        </ul>
+                                        <span><strong>Página: </strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Blog Post -->   
+        <!--Brand Area -->
+        <div class="brand-area">
+            <div class="container">
+                <div class="brand-content">
+                    <div class="row">
+                        <div class="brand-carousel">
+                            <div class="col-md-2">
+                                <div class="single-brand">
+                                    <a href="#">
+                                        <img src="img/brand/1.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="single-brand">
+                                    <a href="#">
+                                        <img src="img/brand/2.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="single-brand">
+                                    <a href="#">
+                                        <img src="img/brand/3.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="single-brand">
+                                    <a href="#">
+                                        <img src="img/brand/4.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="single-brand">
+                                    <a href="#">
+                                        <img src="img/brand/5.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="single-brand">
+                                    <a href="#">
+                                        <img src="img/brand/6.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="single-brand">
+                                    <a href="#">
+                                        <img src="img/brand/1.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="single-brand">
+                                    <a href="#">
+                                        <img src="img/brand/6.jpg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+        <!-- Brand -->
+        
+        <!--Service -->
+            <div class="footer-widget-area">
+                <div class="container">
+                    <div class="service-padding">   
+                        <div class="row">
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                                <div class="single-service">
+                                    <span class="fa fa-truck"></span>
+                                    <h3>Envio gratis</h3>
+                                    <p>Pedidos acima de R$99</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                                <div class="single-service">
+                                    <span class="fa fa-dropbox"></span>
+                                    <h3>Gift cards</h3>
+                                    <p> Presenteie quem você ama</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                                <div class="single-service">
+                                    <span class="fa fa-calendar-o"></span>
+                                    <h3>Promoção do dia</h3>
+                                    <p> Comece o dia bem</p>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-3 hidden-sm col-xs-12">
+                                <div class="single-service">
+                                    <span class="fa fa-comments-o"></span>
+                                    <h3>CHAT</h3>
+                                    <p> Disponível de Seg a Sex das 9h às 18h.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+            </div>
+            <!--Service -->
+        
+        <!--Footer Widget -->
+        <div class="footer-widget-area">
+            <div class="container">
+                <div class="footer-widget-padding"> 
+                    <div class="row">
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                            <div class="single-widget">
+                                    <div class="footer-widget-title">
+                                        <h3>nosso suporte</h3>
+                                    </div>
+                                    <div class="footer-widget-list ">
+                                        <ul>
+                                            <li><a href="#">Mapa do Site</a></li>
+                                            <li><a href="#">Politica de Privacidade</a></li>
+                                            <li><a href="#">Sua Conta</a></li>
+                                            <li><a href="#">Busca Avançada</a></li>
+                                            <li><a href="#">Fale Conosco</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 hidden-sm col-xs-12">
+                            <div class="single-widget">
+                                    <div class="footer-widget-title">
+                                        <h3>Minha conta</h3>
+                                    </div>
+                                    <div class="footer-widget-list ">
+                                        <ul>
+                                            <li><a href="#">Minha Conta</a></li>
+                                            <li><a href="#">Histórico Pedidos</a></li>
+                                            <li><a href="#">Devoluções</a></li>
+                                            <li><a href="#">Especiais</a></li>
+                                            <li><a href="#">Mapa do Site</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                            <div class="single-widget">
+                                    <div class="footer-widget-title">
+                                        <h3>Fale com a Gente</h3>
+                                    </div>
+                                    <div class="footer-widget-list ">
+                                        <ul class="address">
+                                            <li><span class="fa fa-map-marker"></span> Endereço:  Alameda Santos, 2159 - Jardim Paulista, São Paulo - SP, 01418-200</li>
+                                            <li><span class="fa fa-phone"></span> +55 (11) 3230-4141</li>
+                                            <li class="support-link"><span class="fa fa-envelope-o"></span> renan.augusto@admin.com</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="col-lg-3 col-md-3 col-sm-4 col-xs-12">
+                            <div class="single-widget">
+                                <div class="footer-widget-title">
+                                    <h3>Receba nossa Newsletter</h3>
+                                </div>
+                                <div class="footer-widget-list ">
+                                    <form id="newsletter" method="post" action="#">
+                                        <div class="newsletter-content">
+                                           <input type="text" name="email">
+                                            <button class="button" type="submit"><span>Inscrever-se</span></button>
+                                        </div>
+                                    </form>
+                                    <ul class="social-link">
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-rss"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>     
+            </div>
+        </div>
+        <!-- Footer Widget -->
+        <!--Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="footer-padding">   
+                    <div class="row">
+                        <div class="col-lg-7 col-md-7 col-sm-8">
+                            <nav>
+                                <ul id="footer-menu">
+                                    <li><a href="#">Sobre Nós</a></li>
+                                    <li><a href="#">Fale Conosco</a></li>
+                                    <li><a href="#">Serviço ao Cliente</a></li>
+                                    <li><a href="#">Politica de Privacidade</a></li>
+                                </ul>
+                                <p class="author">O nome 'Farfetch' e seu logo são marcas registradas da Farfetch UKLimited e estão registradas em várias jurisdições ao redor do mundo. © Copyright 2019 <a href="#">Renan Augusto</a> Todos os direitos reservados.</p>
+                            </nav>
+                        </div>
+                        <div class="col-lg-5 col-md-5 col-sm-4">
+                            <p class="payment-image">
+                                <img src="img/payment.png" alt="">
+                            </p>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </footer>
+        <!-- Footer -->
+        
+		<!-- jquery
+		============================================ -->		
+        <script src="js/vendor/jquery-1.11.3.min.js"></script>
+        
+		<!-- bootstrap JS
+		============================================ -->		
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!-- nivo slider js
+		============================================ -->       
+		<script src="lib/nivo-slider/js/jquery.nivo.slider.js" type="text/javascript"></script>
+		<script src="lib/nivo-slider/home.js" type="text/javascript"></script>
+		
+		<!-- wow JS
+		============================================ -->		
+        <script src="js/wow.min.js"></script>
+        	
+		<!-- meanmenu JS
+		============================================ -->		
+        <script src="js/jquery.meanmenu.js"></script>
+        
+		<!-- owl.carousel JS
+		============================================ -->		
+        <script src="js/owl.carousel.min.js"></script>
+        
+		<!-- price-slider JS
+		============================================ -->		
+        <script src="js/jquery-price-slider.js"></script>	
+        
+		<!-- scrollUp JS
+		============================================ -->		
+        <script src="js/jquery.scrollUp.min.js"></script>
+        
+        <!--Countdown js-->
+        <script src="js/jquery.countdown.min.js"></script>
+        
+		<!-- Sticky Menu JS
+		============================================ -->		
+        <script src="js/jquery.sticky.js"></script>
+        
+		<!-- Elevatezoom JS
+		============================================ -->		
+        <script src="js/jquery.elevateZoom-3.0.8.min.js"></script>
+        
+		<!-- plugins JS
+		============================================ -->		
+        <script src="js/plugins.js"></script>
+        
+		<!-- main JS
+		============================================ -->		
+        <script src="js/main.js"></script>
+    </body>
+</html>
